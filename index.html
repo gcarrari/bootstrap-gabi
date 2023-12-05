@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="auto">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Wary Cash Pricing</title>
+</head>
+<body>
+    <style>
+
+    </style>
+    <div id="top"></div>
+    <header class="container py-3">
+        <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+          <img class="me-3" src="https://i.imgur.com/YUVfPNy.png" alt="WC_Logo" width="40">
+          <span class="fs-4">Wary Cash</span></a>
+    
+          <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+            <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="index.html">Home</a>
+            <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Suporte</a>
+            <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Entre em Contato</a>
+            <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#bot">Funcionalidades</a>
+          </nav>
+        </div>
+    
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+          <h1 class="display-4 fw-normal text-body-emphasis">Modelos de Assinatura</h1>
+          <p class="fs-5 text-body-secondary">Alcance seus objetivos mais rápido! Com o nosso modelo de assinatura você adquire muito mais benefícios. Confira!</p>
+        </div>
+      </header>
+    <main>
+        <div class="container py-3">
+              <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                <div class="col">
+                  <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                      <h4 class="my-0 fw-normal">Gratuito</h4>
+                    </div>
+                    <div class="card-body">
+                      <h1 class="card-title pricing-card-title">R$0<small class="text-body-secondary fw-light">/mês</small></h1>
+                      <ul class="list-unstyled mt-3 mb-4">
+                        <li>Integração com plataformas de entrega</li>
+                        <li>1 usuário incluso</li>
+                        <li>Suporte via e-mail</li>
+                        <li>Acesso a Central de Ajuda</li>
+                      </ul>
+                      <button type="button" class="w-100 btn btn-lg btn-outline-success">Inscreva-se grátis</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card mb-4 rounded-3 shadow-sm border-success">
+                    <div class="card-header py-3">
+                      <h4 class="my-0 fw-normal">Pro</h4>
+                    </div>
+                    <div class="card-body">
+                      <h1 class="card-title pricing-card-title">R$14,99<small class="text-body-secondary fw-light">/mês</small></h1>
+                      <ul class="list-unstyled mt-3 mb-4">
+                        <li>Todos os recursos do 'tier' anterior</li>
+                        <li>+1 usuário incluso</li>
+                        <li>Acesso a descontos de parceiros</li>
+                        <li>Prioridade no suporte via e-mail</li>
+                      </ul>
+                      <button type="button" class="w-100 btn btn-lg btn-success">Quero esse!</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card mb-4 rounded-3 shadow-sm border-success">
+                    <div class="card-header py-3 text-bg-success border-success">
+                      <h4 class="my-0 fw-normal">Empresarial</h4>
+                    </div>
+                    <div class="card-body">
+                      <h1 class="card-title pricing-card-title">R$49,99<small class="text-body-secondary fw-light">/mês</small></h1>
+                      <ul class="list-unstyled mt-3 mb-4">
+                        <li>Todos os recursos do 'tier' anterior</li>
+                        <li>Usuários Ilimitados</li>
+                        <li>Suporte via telefone</li>
+                        <li>Cashback nos descontos utilizados</li>
+                      </ul>
+                      <button type="button" class="w-100 btn btn-lg btn-success">Entrar em contato!</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+              <h2 class="display-6 text-center mb-4"><a class="btn btn-success" data-bs-toggle="offcanvas" href="#offcanvasHTML" role="button" aria-controls="offcanvasExample">Compare os planos</a></h2>
+
+              <div class="offcanvas  offcanvas-start" tabindex="-1" id="offcanvasHTML" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Planos</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+
+                  <div class="table-responsive">
+                    <table class="table text-center">
+                      <thead>
+                        <tr>
+                          <th style="width: 34%;"></th>
+                          <th style="width: 22%;">Gratuito</th>
+                          <th style="width: 22%;">Pro</th>
+                          <th style="width: 22%;">Empresarial</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="text-start">Integração com plataformas</th>
+                          <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+                          <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+                          <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Acesso a descontos</th>
+                          <td></td>
+                          <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+                          <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+                        </tr>
+                      </tbody>
+              
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="text-start">Carteira Digital</th>
+                          <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+                          <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+                          <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Compartilhar</th>
+                          <td></td>
+                          <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+                          <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Membros Ilimitados</th>
+                          <td></td>
+                          <td></td>
+                          <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Segurança extra</th>
+                          <td></td>
+                          <td></td>
+                          <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>     
+          </div>
+    </main>
+    <footer class="container pt-4 my-md-5 pt-md-5 border-top">
+        <div id="bot"><!----></div>
+        <div class="row">
+          <div class="col-12 col-md text-center">
+            <img class="mb-2" src="https://i.imgur.com/YUVfPNy.png" alt="WC_Logo" width="70">
+            <small class="d-block mb-3 text-body-secondary">Gabrieli Carrari © 2023</small>
+            <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#top">Topo</a>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Funcionalidades</h5>
+            <ul class="list-unstyled text-small">
+              <li class="mb-1" disabled><a href="#" class="nav-link disabled text-secondary" disabled>Integração aos apps de entrega</a></li>
+              <li class="mb-1" disabled><a href="#" class="nav-link disabled text-secondary" disabled>Registro de Receita/Despesa</a></li>
+              <li class="mb-1" disabled><a href="#" class="nav-link disabled text-secondary" disabled>Relatório Semanal/Mensal </a></li>
+              <li class="mb-1" disabled><a href="#" class="nav-link disabled text-secondary" disabled>Carteira Digital</a></li>
+              <li class="mb-1" disabled><a href="#" class="nav-link disabled text-secondary" disabled>Gráficos Detalhados</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Recursos</h5>
+            <ul class="list-unstyled text-small">
+              <li class="mb-1" disabled><a href="#" class="nav-link disabled text-secondary" disabled>Descontos exclusivos</a></li>
+              <li class="mb-1" disabled><a href="#" class="nav-link disabled text-secondary" disabled>Cashback</a></li>
+              <li class="mb-1" disabled><a href="#" class="nav-link disabled text-secondary" disabled>Suporte via e-mail e telefone</a></li>
+              <li class="mb-1" disabled><a href="#" class="nav-link disabled text-secondary" disabled>Central de Ajuda</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Sobre Nós</h5>
+            <ul class="list-unstyled text-small">
+              <li class="mb-1" disabled><a href="#" class="nav-link disabled text-secondary" disabled>Time</a></li>
+              <li class="mb-1" disabled><a href="#" class="nav-link disabled text-secondary" disabled>Localização</a></li>
+              <li class="mb-1" disabled><a href="#" class="nav-link disabled text-secondary" disabled>Privacidade</a></li>
+              <li class="mb-1" disabled><a href="#" class="nav-link disabled text-secondary" disabled>Termos</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+
+      <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+        <symbol id="check" viewBox="0 0 16 16">
+          <title>Check</title>
+          <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+        </symbol>
+      </svg>
+      
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
